@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela Fiori Izzo | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Modal de Projeto -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-header-project">
+                    <h2 id="modalTitle"></h2>
+                    <span id="modalSemester" class="semester-tag"></span>
+                </div>
+                <div class="modal-images">
+                </div>
+                <div class="modal-info">
+                    <h3>Descrição do Projeto</h3>
+                    <p id="modalDescription"></p>
+
+                    <h3>Tecnologias Utilizadas</h3>
+                    <div id="modalTechnologies" class="tech-used"></div>
+
+                    <h3>Funcionalidades</h3>
+                    <ul id="modalFeatures"></ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navegação -->
+    <header>
+        <nav>
+            <div class="logo">Portfólio</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="assets/img/gabriela-foto.jpg" alt="Gabriela Fiori Izzo">
+            </div>
+            <div class="hero-text">
+                <h1>Gabriela Fiori Izzo</h1>
+                <p class="subtitle">Analista de Dados</p>
+                <div class="social-links-hero">
+                    <a href="https://github.com/gxbizz" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gabrielafiori/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:gabriela.fiori@email.com" title="E-mail">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- Sobre -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <div class="about-content">
+                <p>Oii! Sou estudante de Desenvolvimento de Software na FATEC e apaixonada por tecnologia, inovação e
+                    pelo poder dos dados em transformar ideias em soluções reais. Acredito que cada dado tem uma
+                    história a contar — e é essa curiosidade que me move a buscar conhecimento e criar projetos com
+                    propósito.</p>
+                <p>Atualmente, atuo como Analista de Dados na Suzano S.A., onde aplico análise e ciência de dados,
+                    automações e visualizações para apoiar decisões estratégicas. Sigo aprimorando minhas habilidades
+                    técnicas e criativas para unir inteligência analítica e sensibilidade humana na construção de
+                    soluções que geram impacto positivo.</p>
+            </div>
+        </section>
+
+        <!-- Formação Acadêmica -->
+        <section id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Tecnologia em Desenvolvimento de Software Multiplataforma</h3>
+                        <p class="institution">FATEC - Faculdade de Tecnologia de São Paulo</p>
+                        <p class="period">Início: 2023 | Previsão de conclusão: 2026</p>
+                        <p class="description">Curso focado em desenvolvimento multiplataforma, incluindo programação
+                            web, mobile, banco de dados, estruturas de dados e gerenciamento de projetos.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Cursos de Extensão</h3>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <h4>Python Intermediário</h4>
+                    <p class="course-info">Huawei | 32 horas</p>
+                    <p class="course-date">Fevereiro 2025</p>
+                </div>
+                <div class="course-card">
+                    <h4>Métodos de Machine Learning Bioinspirados</h4>
+                    <p class="course-info">DIO | 1 hora</p>
+                    <p class="course-date">Maio 2024</p>
+                </div>
+                <div class="course-card">
+                    <h4>Python Data Analytics</h4>
+                    <p class="course-info">DIO | 68 horas</p>
+                    <p class="course-date">Maio 2024</p>
+                </div>
+                <div class="course-card">
+                    <h4>Matemática</h4>
+                    <p class="course-info">Kumon</p>
+                    <p class="course-date">2 anos</p>
+                </div>
+                <div class="course-card">
+                    <h4>BraColTec: Colaboração em Tecnologia</h4>
+                    <p class="course-info">Projeto Colaborativo Internacional (Fatec e Uniminuto) | 40 horas</p>
+                    <p class="course-date">Abril/Maio 2024</p>
+                </div>
+                <div class="course-card">
+                    <h4>Google Cloud Computing Foundations</h4>
+                    <p class="course-info">Google Cloud Skills Boost</p>
+                    <p class="course-date">Abril - Maio 2025</p>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Idiomas</h3>
+            <div class="languages">
+                <div class="language-item">
+                    <span class="language-name">Português</span>
+                    <span class="language-level">Nativo</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Inglês</span>
+                    <span class="language-level">Intermediário</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Espanhol</span>
+                    <span class="language-level">Básico</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiência Profissional -->
+        <section id="experiencia">
+            <h2>Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>People Analytics (Estágio)</h3>
+                        <p class="institution">Suzano S.A.</p>
+                        <p class="period">Março 2023 - Atual</p>
+                        <ul class="activities">
+                            <li>Gestão e análise de dados para RH, garantindo qualidade e confiabilidade por meio de
+                                automações e otimizações, com abordagem data driven</li>
+                            <li>Desenvolvimento de dashboards e relatórios em Business Intelligence, aplicando ETL,
+                                modelagem de dados e UX/UI</li>
+                            <li>Pesquisa e implementação de tecnologias para otimização de processos de RH</li>
+                            <li>Controle e análise de KPIs, NPS e orçamento da área de analytics</li>
+                            <li>Apoio em ações de change management, capacitação de usuários e comunicação estratégica
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Analista de Dados - Comercial (Estágio)</h3>
+                        <p class="institution">LUZ</p>
+                        <p class="period">Setembro 2024 - Fevereiro 2025</p>
+                        <ul class="activities">
+                            <li>Análise de resultados de prospecção, geração e qualificação de leads no modelo de
+                                Geração Distribuída de Energia</li>
+                            <li>Desenvolvimento de ETL no Power BI para enriquecimento de dados e visualização de leads
+                                a partir de bases de CNPJs estaduais</li>
+                            <li>Implementação de automações com Python para simulações em grande volume de faturas de
+                                energia</li>
+                            <li>Gestão e distribuição de leads no Salesforce, criação de relatórios e centralização de
+                                dados de diversas fontes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Assistente Administrativo (Jovem Aprendiz)</h3>
+                        <p class="institution">LUZ</p>
+                        <p class="period">Março 2022 - Setembro 2023</p>
+                        <ul class="activities">
+                            <li>Atuei como Jovem Aprendiz pelo CIEE, focando na entrada, administração e gerenciamento
+                                dos processos de aposentadoria da empresa</li>
+                            <li>Contribuí para a organização e eficiência das operações, garantindo o fluxo adequado das
+                                informações e o cumprimento dos procedimentos administrativos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Linguagens de Programação</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Bibliotecas</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Ferramentas & Tecnologias</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Excel Avançado</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Power Automate</span>
+                        <span class="skill-tag">Salesforce</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Metodologias</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scrum</span>
+                        <span class="skill-tag">Kanban</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projects-grid" id="projectsContainer">
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>gabriela.fiori@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>github.com/gxbizz</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p>linkedin.com/in/gabrielafiori</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Gabriela Fiori Izzo | Todos os direitos reservados</p>
+        <p class="footer-note">Desenvolvido como projeto acadêmico - FATEC</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
